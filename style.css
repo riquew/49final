@@ -1,0 +1,10 @@
+/* GLOBAL */
+@import "./css/componentes.css";
+@import "./css/global.css";
+@import "./css/cores.css";
+
+/* HEADER */
+@import "./css/header.css";
+
+/* HOME */
+@import "./css/home/carousel.css";
