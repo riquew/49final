@@ -17,20 +17,48 @@
         <img src="./img/logo.svg" alt="">
         <p>49º BPM/I</p>
       </div>
-      <nav>
+      <nav class="menu">
         <ul>
-          <a href="">
-            <li>Sub-Unidades</li>
-          </a>
-          <a href="">
-            <li>Comandantes</li>
-          </a>
-          <a href="">
-            <li>Galeria</li>
-          </a>
-          <a href="">
-            <li>Utilidades</li>
-          </a>
+          <li data-dropdown="">
+            <a href="">Sub-Unidades</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="">Batalhao</a>
+              </li>
+              <li>
+                <a href="">1 Cia</a>
+              </li>
+              <li>
+                <a href="">2 Cia</a>
+              </li>
+              <li>
+                <a href="">3 Cia</a>
+              </li>
+            </ul>
+          </li>
+          <li data-dropdown="">
+            <a href="">Comandantes</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="">Atual Cmt</a>
+              </li>
+              <li>
+                <a href="">Eternos Cmts</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="">Galeria</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="">Policial do Mes</a>
+              </li>
+              <li>
+                <a href="">Eventos</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="">Utilidades</a></li>
         </ul>
       </nav>
     </div>
@@ -41,7 +69,7 @@
     </div>
   </main>
 
-
+  <script src="./script.js" type="module"></script>
 </body>
 
 </html>
