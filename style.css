@@ -2,9 +2,11 @@
 @import "./css/utilitarios/componentes.css";
 @import "./css/global/global.css";
 @import "./css/utilitarios/cores.css";
+@import "./css/utilitarios/tipografia.css";
 
 /* HEADER */
 @import "./css/global/header.css";
+@import "./css/global/dropdown-menu.css";
 
 /* HOME */
 @import "./css/home/carousel.css";

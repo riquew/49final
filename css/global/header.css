@@ -20,14 +20,9 @@ header {
   z-index: 999;
 }
 
-.header-logo p {
+.header-logo h1 {
   margin-bottom: 10px;
   padding-left: 16px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 60px;
 }
 
 .menu ul {
@@ -39,7 +34,6 @@ header {
 
 .menu ul li {
   margin-bottom: 10px;
-  font-family: "Roboto";
   position: relative;
 }
 
@@ -51,7 +45,7 @@ header {
   color: var(--cor-3);
 }
 
-/* .menu ul li::after {
+.menu ul li::after {
   content: "";
   display: block;
   height: 2px;
@@ -65,32 +59,6 @@ header {
 .menu ul li:hover::after {
   color: var(--cor-3);
   width: 100%;
-} */
-
-.menu .dropdown-menu {
-  display: block;
-  flex-direction: column;
-  background: var(--cor-10);
-  padding: 16px 8px;
-  border: 2px solid var(--cor-0);
-  border-radius: 4px;
-  position: absolute;
-  width: 120px;
-  margin-top: 4px;
-  z-index: 200;
-}
-
-.menu .dropdown-menu li {
-  position: relative;
-}
-
-.menu .dropdown-menu li::before {
-  content: "";
-  height: 1px;
-  width: 80%;
-  top: 24px;
-  background-color: var(--cor-8);
-  position: absolute;
 }
 
 .red-line {
