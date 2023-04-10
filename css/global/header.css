@@ -51,7 +51,7 @@ header {
   height: 2px;
   width: 0px;
   background-color: var(--cor-1);
-  margin-top: 4px;
+  margin-top: 1px;
   transition: 0.3s;
   position: absolute;
 }

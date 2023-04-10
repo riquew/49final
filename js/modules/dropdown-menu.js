@@ -2,6 +2,7 @@ import outsideClick from "./outsideClick.js";
 
 export default function initDropDownMenu() {
   const itensNav = document.querySelectorAll("[data-dropdown]");
+
   function showDropDownMenu(event) {
     event.preventDefault();
     const dropDownMenu = this.querySelector("ul");
