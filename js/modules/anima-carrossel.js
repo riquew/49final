@@ -14,7 +14,7 @@ export default function initCarrossel() {
   function initCounter() {
     setInterval(() => {
       changeBackground();
-    }, 3000);
+    }, 3500);
   }
 
   if (imgsCarrossel) {
