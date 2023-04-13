@@ -6,9 +6,9 @@ export default function initCarrossel() {
     if (fotoPos === 5) fotoPos = 0;
     fotoPos += 1;
     console.log(getComputedStyle(imgsCarrossel).animationName);
-    getComputedStyle(imgsCarrossel).animationName === "show-left"
-      ? (imgsCarrossel.style.animation = "new-show-left 0.4s forwards")
-      : (imgsCarrossel.style.animation = "show-left 0.4s forwards");
+    getComputedStyle(imgsCarrossel).animationName === "show-down"
+      ? (imgsCarrossel.style.animation = "new-show-down 0.4s forwards")
+      : (imgsCarrossel.style.animation = "show-down 0.4s forwards");
     imgsCarrossel.style.backgroundImage = `url("../../img/carousel/img_${fotoPos}_resize.jpg")`;
   }
 

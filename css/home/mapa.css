@@ -1,0 +1,60 @@
+.mapa h1 {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.mapa h1::before {
+  content: "";
+  width: 20px;
+  height: 10px;
+  background-color: var(--cor-p1);
+  top: 15px;
+  left: -30px;
+  position: absolute;
+}
+
+.mapa-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mapa-cias {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.mapa-cias section h2 {
+  position: relative;
+}
+
+.mapa-cias section h2::before {
+  content: "";
+  width: 15px;
+  height: 8px;
+  background-color: var(--cor-p1);
+  top: 15px;
+  left: -25px;
+  position: absolute;
+}
+
+.mapa-cias section article {
+  padding-left: 8px;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.mapa-cias section article::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  position: absolute;
+  background-color: var(--cor-p2);
+  left: -10px;
+  bottom: 8px;
+}
+
+.mapa-img {
+  display: grid;
+  justify-content: center;
+}
