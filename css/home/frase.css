@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 1fr;
   padding-top: 0;
   gap: 40px;
+  padding-bottom: 72px;
 }
 
 .frase blockquote {
