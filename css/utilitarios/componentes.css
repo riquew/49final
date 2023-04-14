@@ -7,3 +7,8 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.red-line {
+  background: var(--cor-p1);
+  height: 5px;
+}

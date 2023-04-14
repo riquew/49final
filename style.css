@@ -14,3 +14,6 @@
 @import "./css/home/mural.css";
 @import "./css/home/numeros.css";
 @import "./css/home/frase.css";
+
+/* FOOTER */
+@import "./css/global/footer.css";

@@ -60,8 +60,3 @@ header {
   color: var(--cor-3);
   width: 100%;
 }
-
-.red-line {
-  background: var(--cor-p1);
-  height: 5px;
-}
