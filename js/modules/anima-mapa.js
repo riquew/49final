@@ -41,7 +41,7 @@ export default function initAnimaMapa() {
     observer.observe(observerTarget, { attributes: true });
   }
 
-  if (observerTarget) {
+  if (observerTarget && cias && subTitles) {
     addMutationObserver();
   }
 }
