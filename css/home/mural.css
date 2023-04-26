@@ -4,3 +4,44 @@
   display: flex;
   justify-content: space-between;
 }
+
+.mural div {
+  text-align: center;
+  position: relative;
+}
+
+.mural-conteudo img {
+  transition: opacity 0.5s;
+}
+
+.mural-conteudo.ativo img {
+  opacity: 0.6;
+}
+
+.mural-conteudo span {
+  opacity: 0;
+  padding: 8px 16px;
+  border: 2px outset var(--cor-2);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--cor-0);
+  text-transform: uppercase;
+  transition: opacity 0.5s;
+}
+
+.mural-conteudo.ativo span {
+  opacity: 1;
+}
+
+/* @keyframes show-down {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 0px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+} */
