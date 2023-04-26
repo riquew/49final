@@ -25,6 +25,7 @@
 
 .mapa-cias section h2 {
   position: relative;
+  opacity: 0;
 }
 
 .mapa-cias section h2::before {
@@ -41,6 +42,7 @@
   padding-left: 8px;
   margin-bottom: 24px;
   position: relative;
+  opacity: 0;
 }
 
 .mapa-cias section article::before {
@@ -61,4 +63,34 @@
 
 .mapa-img img {
   max-width: 240px;
+}
+
+.fadeRight {
+  animation: fadeRight 1s forwards;
+}
+
+.fadeDown {
+  animation: fadeDown 1s forwards;
+}
+
+@keyframes fadeRight {
+  from {
+    opacity: 0;
+    transform: translate3d(-10px, 0px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -10px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
