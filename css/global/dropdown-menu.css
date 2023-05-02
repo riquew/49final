@@ -5,7 +5,7 @@
   padding: 16px 8px 0 8px;
   border: 2px solid var(--cor-0);
   position: absolute;
-  width: 120px;
+  width: 150px;
   margin-top: 1px;
   z-index: 200;
 }
@@ -13,6 +13,10 @@
 .menu .dropdown-menu li {
   position: relative;
   margin-bottom: 20px;
+}
+
+.menu .dropdown-menu li a {
+  padding-right: 30px;
 }
 
 .dropdown-menu li::before {
