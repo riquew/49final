@@ -7,7 +7,6 @@ export default function initAnimaMapa() {
   function addAnimation(item, size, properties) {
     let i = 0;
     const animation = setInterval(() => {
-      console.log(item[i]);
       item[i].classList.add(properties.animation);
       if (i === size) {
         clearInterval(animation);
