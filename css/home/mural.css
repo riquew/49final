@@ -1,17 +1,25 @@
-.mural {
+.wrapper-mural {
+  overflow: hidden;
   margin-top: 72px;
   background-color: var(--cor-11);
-  display: flex;
-  justify-content: space-between;
 }
 
-.mural div {
+.mural {
+  display: flex;
+}
+
+.mural-conteudo {
+  cursor: pointer;
   text-align: center;
   position: relative;
+  flex-shrink: 0;
+  margin-right: 25px;
+  max-width: 800px;
 }
 
 .mural-conteudo img {
   transition: opacity 0.5s;
+  width: 20vw;
 }
 
 .mural-conteudo.ativo img {
@@ -20,11 +28,10 @@
 
 .mural-conteudo span {
   opacity: 0;
-  padding: 8px 16px;
-  border: 2px outset var(--cor-2);
   position: absolute;
   top: 50%;
-  left: 50%;
+  padding: 8px 16px;
+  border: 2px outset var(--cor-2);
   transform: translate(-50%, -50%);
   color: var(--cor-0);
   text-transform: uppercase;
