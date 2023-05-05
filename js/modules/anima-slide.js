@@ -22,8 +22,6 @@ export default class Slide {
     } else {
       this.slide.style.transform = `translate3d(${distX + 50}px, 0, 0)`;
     }
-    console.log(posUltimaFoto);
-    console.log(slideSize);
   }
 
   updatePosition(clientX) {
