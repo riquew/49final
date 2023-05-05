@@ -10,8 +10,20 @@ export default class Slide {
   }
 
   moveSlide(distX) {
-    this.dist.movePosition = distX;
-    this.slide.style.transform = `translate3d(${distX}px, 0, 0)`;
+    const slideSize = this.slide.offsetWidth - 20;
+    const posUltimaFoto = Math.round(
+      document.getElementById("ultima-foto").getBoundingClientRect().right
+    );
+    if (distX < 50 && posUltimaFoto > slideSize) {
+      this.dist.movePosition = distX;
+      this.slide.style.transform = `translate3d(${distX}px, 0, 0)`;
+    } else if (distX >= 50) {
+      this.slide.style.transform = `translate3d(0px, 0, 0)`;
+    } else {
+      this.slide.style.transform = `translate3d(${distX + 50}px, 0, 0)`;
+    }
+    console.log(posUltimaFoto);
+    console.log(slideSize);
   }
 
   updatePosition(clientX) {
