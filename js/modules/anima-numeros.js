@@ -3,13 +3,28 @@ export default function initAnimaNumeros() {
   const observerTarget = document.querySelector(".numeros-icones");
   const ano = document.querySelector(".numero-ano");
   const numeros = Array.from(document.querySelectorAll(".quantidade"));
-  const dados = [237, 1407, 588, 301, 28];
+  const dados = [186, 397, 6307, 828, 26];
+
+  function incrementarNumero(numero, dados) {
+    const total = dados;
+    const incremento = Math.floor((total * 4) / 100);
+    let start = 0;
+    const timer = setInterval(() => {
+      start += incremento;
+      numero.innerText = start;
+      if (start > total) {
+        total === 828
+          ? (numero.innerText = total + " t")
+          : (numero.innerText = total);
+        clearInterval(timer);
+      }
+    }, 75 * Math.random());
+  }
 
   function insertData() {
-    console.log("aqui");
     let i = 0;
     numeros.forEach((numero) => {
-      numero.textContent = dados[i];
+      incrementarNumero(numero, dados[i]);
       i++;
     });
   }
