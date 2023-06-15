@@ -28,7 +28,7 @@
   position: absolute;
 }
 
-.dropdown-menu.ativo {
+.menu .dropdown-menu.ativo {
   display: block;
   animation: show-right 0.4s forwards;
 }
