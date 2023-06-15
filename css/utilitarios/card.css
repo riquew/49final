@@ -1,25 +1,25 @@
-.atualCmt {
+.card {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: var(--cor-11);
   border-radius: 5px;
-  margin-bottom: 72px;
+  margin-bottom: 100px;
 }
 
-.curriculoCmt {
+.cardTexto {
   border-style: solid solid solid none;
   border-width: 5px;
   border-color: var(--cor-p1);
-  border-radius: 5px;
+  border-radius: 0 5px 5px 0;
   padding-left: 40px;
 }
 
-.curriculoCmt h2 {
+.cardTexto h2 {
   color: var(--cor-1);
   position: relative;
 }
 
-.curriculoCmt h2::before {
+.cardTexto h2::before {
   content: "";
   width: 8px;
   height: 15px;
@@ -29,17 +29,17 @@
   position: absolute;
 }
 
-.curriculoCmt ul {
+.cardTexto ul {
   color: var(--cor-4);
   padding-top: 8px;
 }
 
-.curriculoCmt p {
+.cardTexto p {
   padding-bottom: 8px;
   position: relative;
 }
 
-.curriculoCmt p::before {
+.cardTexto p::before {
   content: "";
   width: 10px;
   height: 4px;
@@ -49,19 +49,19 @@
   position: absolute;
 }
 
-.curriculoCmt ul li {
+.cardTexto ul li {
   padding-bottom: 8px;
   padding-left: 16px;
   position: relative;
 }
 
-.curriculoCmt ul li::before {
+.cardTexto ul li::before {
   content: "";
   width: 5px;
   height: 5px;
   border-radius: 5px;
   position: absolute;
   background-color: var(--cor-p2);
-  left: 5px;
+  left: 2px;
   bottom: 18px;
 }

@@ -1,0 +1,27 @@
+.fotoPrincipal {
+  padding-bottom: 24px;
+  background-color: var(--cor-0);
+}
+
+.fotoPrincipal img {
+  border-radius: 5px 0 0 0;
+}
+
+.fotoSecundaria {
+  display: flex;
+  justify-content: center;
+  background-color: var(--cor-0);
+}
+
+.fotoSecundaria img {
+  width: 30%;
+  cursor: pointer;
+}
+
+.fotoSecundaria img:hover {
+  opacity: 0.6;
+}
+
+.conteudoSede {
+  background-color: var(--cor-11);
+}
