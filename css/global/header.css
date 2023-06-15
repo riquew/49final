@@ -60,3 +60,7 @@ header {
   color: var(--cor-3);
   width: 100%;
 }
+
+.clicked {
+  text-decoration: underline;
+}

@@ -15,5 +15,8 @@
 @import "./css/home/numeros.css";
 @import "./css/home/frase.css";
 
+/* COMANDANTES */
+@import "./css/comandantes/atualCmt.css";
+
 /* FOOTER */
 @import "./css/global/footer.css";
