@@ -1,0 +1,65 @@
+{
+  "btl": {
+    "titulo": "Batalhao",
+    "endereco": "Rua Barão do Rio Branco, 318",
+    "municipio": "Jundiaí - SP",
+    "telefone": "(11) 4587-5000",
+    "email": "49bpmi@policiamilitar.sp.gov.br"
+  },
+  "ft": {
+    "titulo": "Força Tática",
+    "endereco": "Avenida Comendador Antonio Borin, 3480",
+    "municipio": "Jundiaí - SP",
+    "telefone": "(11) 4584-1801",
+    "email": "49bpmip3@policiamilitar.sp.gov.br"
+  },
+  "jundiai": {
+    "titulo": "1ª Cia",
+    "endereco": "Avenida Comendador Antonio Borin, 3480",
+    "municipio": "Jundiaí - SP",
+    "telefone": "(11) 4584-1801",
+    "email": "49bpmi1cia@policiamilitar.sp,gov.br"
+  },
+  "itatiba": {
+    "titulo": "2ª Cia",
+    "endereco": "Rua Castro Alves, 372",
+    "municipio": "Itatiba - SP",
+    "telefone": "(11) 4538-3661",
+    "email": "49bpmi2cia@policiamilitar.sp.gov.br"
+  },
+  "louveira": {
+    "titulo": "2ª Cia - 1º Pel",
+    "endereco": "Rua 21 de Março, 66",
+    "municipio": "Louveira - SP",
+    "telefone": "(19) 3848-1458",
+    "email": "49bpmi2cia1pel@policiamilitar.sp.gov.br"
+  },
+  "morungaba": {
+    "titulo": "2ª Cia - 1º GP",
+    "endereco": "Rua Pereira Cardoso, 34",
+    "municipio": "Morungaba - SP",
+    "telefone": "(11) 4014-7622",
+    "email": "49bpmi2cia1gp@policiamilitar.sp.gov.br"
+  },
+  "varzea": {
+    "titulo": "3ª Cia",
+    "endereco": "Rua Frei Henrique Coimbra, 42",
+    "municipio": "Várzea Paulista - SP",
+    "telefone": "(11) 4595-0083",
+    "email": "49bpmi3cia@policiamilitar.sp.gov.br"
+  },
+  "campoLimpo": {
+    "titulo": "3ª Cia - 1º Pel",
+    "endereco": "Avenida dos Emancipadores, 633",
+    "municipio": "Campo Limpo Paulista - SP",
+    "telefone": "(11) 4039-3466",
+    "email": "49bpmi3cia1pel@policiamilitar.sp.gov.br"
+  },
+  "jarinu": {
+    "titulo": "3ª Cia - 1º GP",
+    "endereco": "Rua Eugênio da Silva Bressane, 633",
+    "municipio": "Jarinu - SP",
+    "telefone": "(11) 4916-4394",
+    "email": "49bpmi3cia1gp@policiamilitar.sp.gov.br"
+  }
+}

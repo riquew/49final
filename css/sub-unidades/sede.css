@@ -1,20 +1,21 @@
 .fotoPrincipal {
-  padding-bottom: 24px;
   background-color: var(--cor-0);
 }
 
 .fotoPrincipal img {
   border-radius: 5px 0 0 0;
+  background-color: var(--cor-0);
 }
 
 .fotoSecundaria {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  padding-top: 24px;
   background-color: var(--cor-0);
 }
 
 .fotoSecundaria img {
-  width: 30%;
+  width: 35%;
   cursor: pointer;
 }
 
