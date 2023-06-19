@@ -17,6 +17,8 @@
 .cardTexto h2 {
   color: var(--cor-1);
   position: relative;
+  padding-top: 24px;
+  padding-bottom: 12px;
 }
 
 .cardTexto h2::before {
@@ -24,8 +26,8 @@
   width: 8px;
   height: 15px;
   background-color: var(--cor-p1);
-  top: 15px;
-  left: -15px;
+  top: 38px;
+  left: -20px;
   position: absolute;
 }
 

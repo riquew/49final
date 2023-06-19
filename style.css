@@ -19,5 +19,8 @@
 /* SUB-UNIDADES */
 @import "./css/sub-unidades/sede.css";
 
+/* GALERIA CMTS */
+@import "./css/galeriaCmts/galeriaCmts.css";
+
 /* FOOTER */
 @import "./css/global/footer.css";

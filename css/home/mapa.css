@@ -26,6 +26,7 @@
 .mapa-cias section h2 {
   position: relative;
   opacity: 0;
+  margin-bottom: 16px;
 }
 
 .mapa-cias section h2::before {

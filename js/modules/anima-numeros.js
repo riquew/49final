@@ -18,7 +18,7 @@ export default function initAnimaNumeros() {
           : (numero.innerText = total);
         clearInterval(timer);
       }
-    }, 75 * Math.random());
+    }, 100 * Math.random());
   }
 
   function insertData() {
