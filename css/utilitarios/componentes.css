@@ -27,3 +27,8 @@
 .red {
   background-color: red;
 }
+
+.construcao {
+  display: flex;
+  justify-content: center;
+}
