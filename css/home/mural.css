@@ -9,7 +9,7 @@
 }
 
 .mural-conteudo {
-  cursor: pointer;
+  cursor: grab;
   text-align: center;
   position: relative;
   flex-shrink: 0;

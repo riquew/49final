@@ -20,3 +20,7 @@
 .cmt div p {
   color: var(--cor-4);
 }
+
+.cmt img {
+  max-height: 320px;
+}
