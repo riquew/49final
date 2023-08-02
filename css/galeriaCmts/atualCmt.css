@@ -1,0 +1,17 @@
+.curriculoCmt {
+  height: 450px;
+  overflow-y: scroll;
+}
+
+.curriculoCmt::-webkit-scrollbar {
+  width: 8px;
+}
+
+.curriculoCmt::-webkit-scrollbar-thumb {
+  background: var(--cor-p1);
+  border-left: 4px solid var(--cor-11);
+}
+
+.curriculoCmt::-webkit-scrollbar-track {
+  background: var(--cor-11);
+}

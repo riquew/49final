@@ -21,6 +21,7 @@
 
 /* GALERIA CMTS */
 @import "./css/galeriaCmts/galeriaCmts.css";
+@import "./css/galeriaCmts/atualCmt.css";
 
 /* FOOTER */
 @import "./css/global/footer.css";
