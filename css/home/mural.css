@@ -41,3 +41,9 @@
 .mural-conteudo.ativo span {
   opacity: 1;
 }
+
+@media (min-width: 2000px) {
+  .mural-conteudo img {
+    width: 15vw;
+  }
+}
