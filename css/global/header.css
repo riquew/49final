@@ -4,7 +4,7 @@ header {
 }
 
 .header-conteudo {
-  padding-top: 20px;
+  padding-top: 24px;
   display: flex;
   justify-content: space-between;
   color: var(--cor-1);

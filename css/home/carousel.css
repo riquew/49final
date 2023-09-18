@@ -1,8 +1,9 @@
 .carousel {
   margin-top: -30px;
   background-image: url("../../img/carousel/img_1_resize.jpg");
-  height: 89vh;
+  height: 800px;
   background-size: cover;
+  background-position: center;
   animation: show-down 1s forwards;
 }
 
