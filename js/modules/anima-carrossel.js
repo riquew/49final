@@ -4,7 +4,7 @@ export default function initCarrossel() {
   imgsCarrossel.style.backgroundImage = `url("../img/carousel/carousel_${fotoPos}.jpg")`;
 
   function changeBackground() {
-    if (fotoPos === 6) fotoPos = 0;
+    if (fotoPos === 5) fotoPos = 0;
     fotoPos += 1;
     getComputedStyle(imgsCarrossel).animationName === "show-down"
       ? (imgsCarrossel.style.animation = "new-show-down 0.4s forwards")
