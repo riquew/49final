@@ -9,7 +9,7 @@ export default function initCarrossel() {
     getComputedStyle(imgsCarrossel).animationName === "show-down"
       ? (imgsCarrossel.style.animation = "new-show-down 0.4s forwards")
       : (imgsCarrossel.style.animation = "show-down 0.4s forwards");
-    imgsCarrossel.style.backgroundImage = `url("../../img/carousel/carousel_${fotoPos}.jpg")`;
+    imgsCarrossel.style.backgroundImage = `url("../img/carousel/carousel_${fotoPos}.jpg")`;
   }
 
   function initCounter() {
