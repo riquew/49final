@@ -1,3 +1,18 @@
+.decoradorMapaEsquerda,
+.decoradorMapaDireita {
+  margin-bottom: -72px;
+}
+
+.decoradorMapaEsquerda {
+  display: grid;
+  align-items: end;
+}
+
+.decoradorMapaDireita {
+  display: grid;
+  justify-content: end;
+}
+
 .mapa h1 {
   position: relative;
   margin-bottom: 32px;

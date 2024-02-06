@@ -3,7 +3,7 @@ export default function initAnimaNumeros() {
   const observerTarget = document.querySelector(".numeros-icones");
   const ano = document.querySelector(".numero-ano");
   const numeros = Array.from(document.querySelectorAll(".quantidade"));
-  const dados = [186, 397, 6307, 828, 26];
+  const dados = [151, 694, 32819, 645, 37];
 
   function incrementarNumero(numero, dados) {
     const total = dados;
@@ -14,7 +14,7 @@ export default function initAnimaNumeros() {
       numero.innerText = start;
       if (start > total) {
         total === 828
-          ? (numero.innerText = total + " t")
+          ? (numero.innerText = total + " Kg")
           : (numero.innerText = total);
         clearInterval(timer);
       }

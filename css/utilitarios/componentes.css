@@ -32,3 +32,8 @@
   display: flex;
   justify-content: center;
 }
+
+.decoradorSection {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
