@@ -17,7 +17,7 @@ blockquote p::before {
   content: "";
   width: 10px;
   height: 20px;
-  top: 220px;
+  margin-top: 8px;
   left: -15px;
   background-color: var(--cor-p1);
   position: absolute;
