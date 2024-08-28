@@ -12,12 +12,6 @@ export default function initCarrossel() {
     imgsCarrossel.style.backgroundImage = `url("../img/carousel/carousel_${fotoPos}.jpg")`;
   }
 
-  function initCounter() {
-    setInterval(() => {
-      changeBackground();
-    }, 3500);
-  }
-
   if (imgsCarrossel) {
     initCounter();
   }

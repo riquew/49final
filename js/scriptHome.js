@@ -11,7 +11,7 @@ scroll.init();
 const slide = new Slide(".mural", ".wrapper-mural");
 slide.init();
 initDropDownMenu();
-initCarrossel();
+// initCarrossel();
 initAnimaMapa();
 initAnimaMural();
 initAnimaNumeros();

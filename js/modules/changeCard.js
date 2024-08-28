@@ -1,4 +1,4 @@
-import data from "../data/dadosSubUnidades.json" assert { type: "json" };
+import data from "../data/dadosSubUnidades.json" with { type: "json" };
 
 export default function initChangeCard() {
   const fotoSecundarias = document.querySelectorAll(".fotoSecundaria img");
@@ -29,6 +29,7 @@ export default function initChangeCard() {
   }
 
   function checkAnimation(foto) {
+    console.log(foto.style.animation)
     getComputedStyle(foto).animationName === "show-down"
       ? (foto.style.animation = "new-show-down 0.4s forwards")
       : (foto.style.animation = "show-down 0.4s forwards");
